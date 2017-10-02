@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 /**
@@ -67,6 +68,8 @@ public class AddingActivity extends MainActivity {
                     return;
                 }
                 Toast.makeText(AddingActivity.this, "Counter Add success!", Toast.LENGTH_SHORT).show();
+
+
                 newCounter =  new Counters(counterName.getText().toString(),counterComment.getText().toString(),counterNumber);
                 counters.add(newCounter);
                 saveInFile();

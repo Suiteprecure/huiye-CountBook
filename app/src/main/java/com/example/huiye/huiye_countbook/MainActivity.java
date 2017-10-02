@@ -28,10 +28,13 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+
+import static com.example.huiye.huiye_countbook.R.id.textView;
 
 public class MainActivity extends Activity {
     public Counters newCounter;
@@ -40,7 +43,8 @@ public class MainActivity extends Activity {
    // private EditText bodyText;
 
     public ListView oldCounterList;
-
+    //public int total = 0;
+    private TextView textViewNumber;
     public ArrayList<Counters> counters = new ArrayList<Counters>();
     public ArrayAdapter<Counters> adapter;
 
@@ -52,6 +56,11 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         Button addButton = (Button) findViewById(R.id.add);
+
+        //TextView count = findViewById(R.id.textView);
+
+        textViewNumber = (TextView) findViewById(R.id.textView);
+
 
         oldCounterList = findViewById(R.id.oldCounter);
         registerForContextMenu(oldCounterList);
@@ -80,8 +89,9 @@ public class MainActivity extends Activity {
         Log.d("gg","gg");
         adapter = new CounterAdapter(this,counters);
         oldCounterList.setAdapter(adapter);
-    }
+        textViewNumber.setText("counter number: " + counters.size());
 
+    }
 
 
     public void loadFromFile() {
@@ -166,6 +176,9 @@ public class MainActivity extends Activity {
                 adapter = new CounterAdapter(this,counters);
                 oldCounterList.setAdapter(adapter);
                 Toast.makeText(MainActivity.this, "Delete!", Toast.LENGTH_SHORT).show();
+
+                //TextView textViewNumber = (TextView) findViewById(R.id.textView);
+                textViewNumber.setText("counter number" + counters.size());
                 return true;
 
             case R.id.increase:
