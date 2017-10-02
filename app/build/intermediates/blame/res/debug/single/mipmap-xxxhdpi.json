@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/huiye/project/huiye-CountBook/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/home/huiye/project/huiye-CountBook/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/huiye/project/huiye-CountBook/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/huiye/project/huiye-CountBook/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]

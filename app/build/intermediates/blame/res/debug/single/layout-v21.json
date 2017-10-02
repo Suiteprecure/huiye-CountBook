@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/huiye/project/huiye-CountBook/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/huiye/.android/build-cache/756b12553f2c7eb4940a4b439cda32849d66eacc/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/huiye/project/huiye-CountBook/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/huiye/.android/build-cache/756b12553f2c7eb4940a4b439cda32849d66eacc/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/huiye/project/huiye-CountBook/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/huiye/.android/build-cache/756b12553f2c7eb4940a4b439cda32849d66eacc/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/huiye/project/huiye-CountBook/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/huiye/.android/build-cache/756b12553f2c7eb4940a4b439cda32849d66eacc/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

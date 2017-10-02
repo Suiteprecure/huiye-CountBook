@@ -1,0 +1,7 @@
+#Mon Oct 02 12:23:00 MDT 2017
+base.0=/home/huiye/project/huiye-CountBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_762ec29506d496e6397217c1e3d9feae3e288def
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/huiye/project/huiye-CountBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0f729c81033e71c8f5ab06d9f3f923484432bfbb/classes.dex
+base.1=/home/huiye/project/huiye-CountBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0f729c81033e71c8f5ab06d9f3f923484432bfbb
+file.0=/home/huiye/project/huiye-CountBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_762ec29506d496e6397217c1e3d9feae3e288def/classes.dex

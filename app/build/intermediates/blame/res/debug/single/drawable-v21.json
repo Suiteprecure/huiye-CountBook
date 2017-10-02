@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/huiye/project/huiye-CountBook/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/huiye/.android/build-cache/756b12553f2c7eb4940a4b439cda32849d66eacc/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/huiye/project/huiye-CountBook/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/huiye/.android/build-cache/756b12553f2c7eb4940a4b439cda32849d66eacc/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/huiye/project/huiye-CountBook/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/huiye/.android/build-cache/756b12553f2c7eb4940a4b439cda32849d66eacc/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/huiye/project/huiye-CountBook/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/huiye/.android/build-cache/756b12553f2c7eb4940a4b439cda32849d66eacc/output/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]

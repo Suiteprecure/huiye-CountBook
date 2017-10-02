@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/adding"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add" />
+
+
+    <EditText
+        android:id="@+id/counter_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter counter name"
+        android:scrollbars="horizontal" />
+
+    <EditText
+        android:id="@+id/counter_number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter counter number"
+        android:scrollbars="horizontal" />
+
+    <EditText
+        android:id="@+id/counter_comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter counter comment"
+        android:scrollbars="horizontal" />
+
+    <Button
+        android:id="@+id/add_counter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/add" />
+
+</LinearLayout>
